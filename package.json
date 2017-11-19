@@ -1,0 +1,37 @@
+{
+  "name": "discord-bot",
+  "version": "3.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zishan-ali/discord-bot.git"
+  },
+  "author": "Zishan Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zishan-ali/discord-bot/issues"
+  },
+  "homepage": "https://github.com/zishan-ali/discord-bot#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "discord.js": "^11.2.1",
+    "discord.js-musicbot-addon": "^1.8.2",
+    "ffmepg": "0.0.2-security",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "node-opus": "^0.2.7",
+    "opusscript": "0.0.3",
+    "oversmash": "^1.2.2",
+    "winston": "^2.3.1",
+    "youtube-dl": "^1.11.1",
+    "ytdl-core": "^0.9.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
